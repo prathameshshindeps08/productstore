@@ -1,9 +1,7 @@
 #ifndef PRODUCTMANAGER_H
 #define PRODUCTMANAGER_H
-
-#include <product.h>
-
-class ProductManager : public Product
+using namespace std;
+class ProductManager 
 {   
 	public:
 		ProductManager();
