@@ -1,15 +1,14 @@
 #ifndef PRODUCT_H
 #define PRODUCT_H
-
+using namespace std;
 class Product
 {
 	private:
 		int id;
-		string name;
 		double price;
 	public:
 	     Product();
-	     Product(int id,string name,double price);
+	     Product(int id,double price);
 		~Product();
 		
 		
