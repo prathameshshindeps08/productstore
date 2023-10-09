@@ -1,14 +1,13 @@
 #include "Product.h"
-
+using namespace std;
 Product::Product()
 {
 }
 
 
-Product::Product(int id,string name,double price){
+Product::Product(int id,double price){
 	
 	    this->id=id;
-		this->name=name;
 		this->price=price;
 }
 
